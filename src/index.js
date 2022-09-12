@@ -1,1 +1,3 @@
-alert('everything is working');
+import { pageLoad } from "./modules/page-load";
+
+pageLoad();
