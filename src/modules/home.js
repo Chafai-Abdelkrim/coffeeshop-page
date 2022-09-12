@@ -1,3 +1,4 @@
+import { Menu } from "./menu";
 
 const createTitle = () => {
     const title = document.createElement('h2');
