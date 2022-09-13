@@ -66,7 +66,7 @@ const createListItem = (itemName) => {
     const listItem = document.createElement('li');
     listItem.classList.add('nav-list-item'); 
 
-    const listItemLink = createLink(itemName, 'nav-list-item', '#');
+    const listItemLink = createLink(itemName, 'nav-list-link', '#');
 
     listItem.append(listItemLink);
     return listItem;

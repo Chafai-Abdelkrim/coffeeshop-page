@@ -52,7 +52,7 @@ const createItem = (itemTitle, itemDescription, itemPrice, itemImg) => {
     const price = document.createElement('p');
     price.classList.add('menu-item-price');
 
-    const img = createImg(itemImg);
+    const img = createImage(itemImg);
 
     title.innerText = itemTitle;
     description.innerText = itemDescription;
