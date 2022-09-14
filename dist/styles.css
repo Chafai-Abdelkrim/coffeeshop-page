@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -95,6 +96,7 @@ body {
     text-shadow: none;
     font-style: italic;
     color: #A77979;
+
 }
 
 .main-title::after {
@@ -108,10 +110,27 @@ body {
     filter: invert(54%) sepia(5%) saturate(2788%) hue-rotate(314deg) brightness(96%) contrast(64%);
 }
 
-.main-content-container {}
-
 .main-para {
+    font-family: 'Nothing You Could Do', cursive;
     text-shadow: none;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    color: #808080;    
+}
+
+.main-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    width: fit-content;
+    justify-self: center;
     color: #969696;
+    background-color: #A77979;
+    border: 2px solid #969696;
+    border-radius: 100vmax;
+    padding: 0.2rem 1rem;
+    box-shadow: 0 0 15px rgba(219,205,205,0.49);
+    cursor: pointer;
+    transition: 0.5s;
 }

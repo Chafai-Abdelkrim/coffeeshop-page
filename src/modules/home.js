@@ -11,7 +11,8 @@ const createDescription = () => {
     const para = document.createElement('p');
     const lineBreak = document.createElement('br');
     para.classList.add('main-para');
-    para.append('lorem ipsum dolor sit amet, consectetur adipiscing', lineBreak, 'llorem ipsum dolor sit amet, consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing. Lorem ips.');
+    para.append('Welcome to the O\'brown Coffee shop', lineBreak, 'where it is adorable, classy and calm, at O\'brown we offer a variety of coffee, jus, and smoothies as well as multiple plates of different kind of foods from the sweet to the salty. we make sure we prepare our food and drinks in the cleanest environment so you can enjoy your O\'brown coffee experience and stay healthy.');
+
     return para;
 }
 
