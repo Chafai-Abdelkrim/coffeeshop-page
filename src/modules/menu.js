@@ -13,7 +13,7 @@ const menuItems = [
 const createTitle = () => {
     const title = document.createElement('h2');
     title.classList.add('main-title');
-    title.innerText = 'Menu 📑';
+    title.innerText = 'Menu ';
     return title;
 }
 
