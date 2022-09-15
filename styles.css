@@ -205,7 +205,7 @@ body {
 
 .menu-container {
     display: grid;
-    grid-template-columns: repeat(autofill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1rem;
 }
 
@@ -236,15 +236,54 @@ body {
     object-fit: cover;
 }
 
+.menu-item-title {
+    font-family: 'Dancing Script', cursive;
+    color: #704F4F;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.menu-item-text {
+    font-family: 'Nothing You Could Do', cursive;
+    text-shadow: none;
+    font-size: 1.1rem;
+    color: #472D2D;
+    margin: 0;
+}
+
 .menu-item-price {
     justify-self: center;
     font-size: 1.3rem;
     width: 80px;
-    height: auto;
+    height: 33px;
     padding: 3px 0 3px 0;
+    margin: 0;
     border-radius: 1rem;
     box-shadow: 0 0 15px #704F4F;
     color: #704F4F;
     text-shadow: none;
     background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+@media screen and (min-width: 1200px) {
+    .menu-item-title {
+        font-size: 1.7rem;
+    }
+    .menu-item-text {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    width: 100vw;
+    background-color: hsla(0, 0%, 100%, 0.3);
+    box-shadow: 0px -15px 24px -4px rgba(219,205,205,0.49);
+    border-radius: 1rem 1rem 0 0;
 }
