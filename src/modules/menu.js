@@ -12,8 +12,8 @@ const menuItems = [
 
 const createTitle = () => {
     const title = document.createElement('h2');
-    title.classList.add('main-title');
-    title.innerText = 'Menu ';
+    title.classList.add('menu-title');
+    title.innerText = ' Menu ';
     return title;
 }
 

@@ -3,7 +3,7 @@ import { Menu } from "./menu";
 const createTitle = () => {
     const title = document.createElement('h2');
     title.classList.add('main-title');
-    title.innerText = 'Welcome ';
+    title.innerText = ' Welcome ';
     return title;
 }
 
