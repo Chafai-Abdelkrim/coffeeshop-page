@@ -63,7 +63,7 @@ const createSchedule = () => {
 //function to create the image in the contact page
 const createImage = () => {
     const imgContainer = document.createElement('div');
-    imgContainer.classList.add('contact-img-comtainer');
+    imgContainer.classList.add('contact-img-container');
 
     const img = document.createElement('img');
     img.classList.add('contact-img');
