@@ -275,15 +275,31 @@ body {
 }
 
 
+
 /* FOOTER */
 .footer {
+    font-family: 'Dancing Script', cursive;
+    text-shadow: none;
+    color: #553939;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
-    text-align: center;
     width: 100vw;
+    text-align: center;
+    margin-top: 3rem;
     background-color: hsla(0, 0%, 100%, 0.3);
     box-shadow: 0px -15px 24px -4px rgba(219,205,205,0.49);
     border-radius: 1rem 1rem 0 0;
+    font-size: 1.4rem;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #704F4F;
+}
+
+.footer-link:focus, .footer-link:hover {
+    font-weight: bold;
+    color: #A77979;
 }
