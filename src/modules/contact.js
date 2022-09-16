@@ -1,7 +1,7 @@
 const createTitle = () => {
     const title = document.createElement('h2');
     title.classList.add('contact-title');
-    title.innerText = 'Contact us! ';
+    title.innerText = ' Contact us ! ';
 
     return title;
 }
