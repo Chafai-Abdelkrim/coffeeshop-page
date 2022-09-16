@@ -32,6 +32,7 @@ const createContactDetails = () => {
     return Container;
 }
 
+//function to create the open houre schedule
 const createSchedule = () => {
     const Container = document.createElement('div');
     Container.classList.add('contact-details');
@@ -59,6 +60,21 @@ const createSchedule = () => {
     return Container;
 }
 
+//function to create the image in the contact page
+const createImage = () => {
+    const imgContainer = document.createElement('div');
+    imgContainer.classList.add('contact-img-comtainer');
+
+    const img = document.createElement('img');
+    img.classList.add('contact-img');
+    img.setAttribute('alt', '');
+    img.setAttribute('src', './images/coffeeshop_pic.jpg');
+    imgContainer.append(img);
+
+    return imgContainer;
+}
+
+//function to create the Contact page
 const Contact = () => {
     const main = document.querySelector('.main');
     main.textContent = '';
@@ -68,8 +84,9 @@ const Contact = () => {
     const title = createTitle();
     const details = createContactDetails();
     const Schedule = createSchedule();
+    const img = createImage();
 
-    contactContainer.append(details, Schedule);
+    contactContainer.append(details, Schedule, img);
     main.append(title, contactContainer);
 }
 
