@@ -325,8 +325,53 @@ body {
     color: #808080;
 }
 
+.contact-img-container {
+    grid-column: 1 / 3;
+    grid-row: 2 /3 ;
+    width: 500px;
+    height: 350px;
+    overflow: hidden;
+    border: 2px solid #969696;
+    border-radius: 1rem;
+    align-self: center;
+    box-shadow: 0 0 20px #808080;
+    margin: 0 auto;
+}
+
+.contact-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+    .contact-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact-img-container {
+        grid-column: 1 / 2;
+        width: 320px;
+        height: 220px;
+    }
+    .contact-title {
+        font-size: 2.5rem;
+    }
+    .contact-title::before {
+        width: 2rem;
+        height: 2rem;
+    }
+    .contact-title::after {
+        width: 2rem;
+        height: 2rem;
+    }
+    .contact-details-title {
+        font-size: 1.5rem;
+    }
+    
+}
 
 /* FOOTER */
+
 .footer {
     font-family: 'Dancing Script', cursive;
     text-shadow: none;
