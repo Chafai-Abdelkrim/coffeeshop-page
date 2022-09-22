@@ -79,6 +79,13 @@ body {
     width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* MAIN */
 
 .main {
