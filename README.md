@@ -13,5 +13,5 @@
 [<img alt="screenShot of site" width="900px" src="./dist/images/screenshot-coffeeshop.png" />](https://chafai-abdelkrim.github.io/coffeeshop-page/)
 
 ## Description
-This project is build to put my webpack skills I learned to a test as well as my HTML, CSS and JavaScript skills.
+This project is build to put my webpack skills I learned to a test as well as my HTML, CSS and JavaScript skills.<br>
 This project is a web page for a local Coffee Shop in my neighborhood.
